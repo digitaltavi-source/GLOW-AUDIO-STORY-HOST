@@ -1,0 +1,23 @@
+# Secrets / credentials
+.env
+.env.*
+secrets/
+credentials/
+*.key
+*.pem
+provider_tokens/
+
+# Runtime/build
+node_modules/
+dist/
+build/
+coverage/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Local/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
